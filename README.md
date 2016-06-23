@@ -30,10 +30,13 @@ Usage
 ============
 
 You can send data to an API via the http post method.
+
 Therefore you have to define which data elements should be sent.
+
 "api_data_message" is the name for the KEY including the message text.
-"api_data_success/failed" are the HASHes you want to send as the post data
-(in addition to the "message" HASH).
+
+"api_data_success/failed" are the HASHes you want to send as the post data (in addition to the "message" HASH).
+
 
 Append the following to your Chef client configs, usually at `/etc/chef/client.rb`
 
@@ -81,5 +84,7 @@ License and Author
 ============
 
 copyright: B1 Systems GmbH <info@b1-systems.de>, 2016
+
 license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
 author:    Eike Waldt <waldt@b1-systems.de>
