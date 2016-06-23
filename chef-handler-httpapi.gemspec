@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
   s.name        = "chef-handler-httpapi"
-  s.version     = "0.0.1"
+  s.version     = "0.0.2"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Eike Waldt"]
   s.email       = ["waldt@b1-systems.de"]
   s.homepage    = "https://github.com/b1-systems/chef-handler-httpapi"
-  s.summary     = %q{An exception handler for OpsCode Chef doing http post via net/http)}
-  s.description = %q{An exception handler for OpsCode Chef doing http post via net/http)}
+  s.summary     = %q{An exception handler for OpsCode Chef doing http post via net/http}
+  s.description = %q{An exception handler for OpsCode Chef doing http post via net/http}
   s.has_rdoc    = false
   s.license     = "GPLv3"
 
