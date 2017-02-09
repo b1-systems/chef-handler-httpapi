@@ -15,7 +15,7 @@ Kudos to the following chef_handlers for their inspirations:
 Requirements
 ============
 
-Tested Platform: Linux
+Tested Platform: Linux + Windows
 
 Uses the libraries `net_http`, `uri` and `openssl`.
 
