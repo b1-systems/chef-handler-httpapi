@@ -40,7 +40,7 @@ Therefore you have to define which data elements should be sent.
 
 Append the following to your Chef client configs, usually at `/etc/chef/client.rb`
 
-    require "chef-handler-httpapi"
+    require 'Httpapi.rb'
 
 	api_url = "https://myfanceapi/logging/object"
 	api_user = myfanceuser
